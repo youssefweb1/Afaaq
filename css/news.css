@@ -1,0 +1,189 @@
+
+/* //////////////////////////////////////// */
+
+.newss{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newss h1{
+    color: #242424;
+    font-weight: 600;
+}
+
+.serch-news{
+    display: flex;
+    border: 1px #242424 solid;
+    align-items: center;
+    width: 265px;
+    height: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.serch-news i{
+    background-color: #242424;
+    font-size: 30px;
+    padding: 10px 20px;
+    padding-right: 10px;
+    /* border-radius:  0  20px  20px  0; */
+    color: #fff;
+}
+.serch-news input{
+    border: none;
+    padding: 14px ;
+    /* border-radius: 20px  0 0  20px; */
+    outline: none;
+}
+
+.allcardnews{
+    display: flex;
+    justify-content: start;
+    gap: 34px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+
+}
+.allnewss  .cardNews {
+    width: 23%;
+}
+
+.pagg{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+@media (max-width:1300px){
+    .allnewss .cardNews{
+        width: 30%;
+    }
+    .allcardnews{
+        justify-content: space-between;
+
+    }
+}
+@media (max-width:1515px){
+    .allnewss .cardNews{
+        width: 31%;
+    }
+    .allcardnews{
+        justify-content: flex-start;
+
+    }
+}
+@media (max-width:1200px){
+    .allnewss .cardNews{
+        width: 30%;
+    }
+    .allcardnews{
+        justify-content: space-between;
+
+    }
+}
+
+@media (max-width:1194px){
+    .allnewss .cardNews{
+        width: 30%;
+    }
+    
+}
+@media (max-width:1147px){
+    .allnewss .cardNews{
+        width: 47%;
+    }
+
+}
+@media (max-width:613px){
+    .allnewss .cardNews{
+        width: 90%;
+    }
+    .allcardnews{
+        justify-content: center;
+
+    }
+}
+
+.tt{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+.tt1{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  
+
+}
+
+
+/* Style for Progress Bar */
+.tt2 progress {
+    width: 100%;
+    height: 12px; /* Adjust the thickness */
+    border-radius: 100px; /* Make edges rounded */
+    background-color: transparent; /* Fix background issue */
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    overflow: hidden; /* Ensures the rounded effect */
+}
+
+/* Background Bar (Unfilled Part) */
+.tt2 progress::-webkit-progress-bar {
+    background-color: #E0E0E0; /* Light gray background */
+    border-radius: 10px;
+}
+
+/* Filled Bar (Progress Part) */
+.tt2 progress::-webkit-progress-value {
+    background-color: blue; /* Change to any color */
+    border-radius: 10px;
+}
+
+/* Donate Button */
+.zz{
+   width: 300px;
+    margin-right: 20px;
+}
+.cx{
+    font-weight: bold;
+}
+.gf{
+    margin-left: 10px;
+}
+/* Progress Bar Container */
+  /* Style for Progress Bar Container */
+  .progress-container {
+    width: 100%;
+    background-color: #eee;
+    border-radius: 10px;
+    height: 10px;
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Style for Progress Bar */
+.progress-bar {
+    height: 100%;
+    background-color: #0056b3; /* Blue color */
+    border-radius: 10px;
+    width: 0%; /* Start with 0, updated dynamically */
+    /* transition: width 0.5s ease-in-out; */
+}
+/* Donate Button */
+.donate-btn {
+    text-align: center;
+    width: 100%;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 350px;
+}
